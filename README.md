@@ -14,9 +14,8 @@ Code Language Model (code-LM)-based vulnerability detection for C/C++ faces a su
 **Note:** Due to size limitations on GitHub, the pre-trained models and datasets used in this project are provided separately. Please refer to the instructions below for accessing and using these resources.
 
 ## Pre-trained models and datasets:
-- Download the pre-trained language models from [here](https://drive.google.com/drive/folders/1wBVmRHghSiFXBKS2KU-CnA6wZezuFmMF?usp=sharing).
-- Download the vulnerability datasets from [here](https://drive.google.com/drive/folders/1ki37wIXczktydHkW3Wmih852FAefatki?usp=sharing).
-- Place the downloaded models and datasets in the appropriate directories.
+- Fine-tuned code LMs are available from [here](https://drive.google.com/drive/folders/1wBVmRHghSiFXBKS2KU-CnA6wZezuFmMF?usp=sharing).
+- datasets are available from [here](https://drive.google.com/drive/folders/1ki37wIXczktydHkW3Wmih852FAefatki?usp=sharing).
 
 ## Fine-tune the language models:
 - If you want to fine-tune the models on your own, navigate to the `training/` directory.
