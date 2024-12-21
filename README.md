@@ -2,10 +2,6 @@
 
 This repository contains the code for the paper "Catching Common Vulnerabilities with Code Language Models" by Anonymous Authors.
 
-## Abstract
-
-Code Language Model (code-LM)-based vulnerability detection for C/C++ faces a substantial challenge. Previous research has shown that even though code-LM-based is better than any prior machine learning approach, they still struggle to generalize well, as shown by the low F1 score. This paper investigates the problem from a different angle, focusing on how models perform when classifying whether code is vulnerable to a specific vulnerability type. We use the recently released PrimeVul dataset to investigate the ability to correctly classify different types of vulnerabilities. Our findings show that it is challenging to correctly identify a specific vulnerability class in a dataset containing all types, but if the task is modified to identify the most common vulnerabilities, the cumulative model outperforms previous binary classification results on the dataset. This result shows a promising path to make code-LMs practical in assisting developers with vulnerability detection tasks in C/C++ code.
-
 ## Research Questions
 
 This paper addresses two main research questions:
