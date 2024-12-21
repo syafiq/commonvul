@@ -24,7 +24,7 @@ This paper addresses two main research questions:
 To fine-tune the model, navigate to the `training/` directory. Run the fine-tuning script: `bash run.sh`, adapt the script according to your requirements.
 
 ## Perform inference and evaluation:
-Once the model has been fine-tuned (or using [our](https://drive.google.com/drive/folders/1wBVmRHghSiFXBKS2KU-CnA6wZezuFmMF?usp=sharing) fine-tuned model), once can run the inference script (under `inference/` directory) to perform both the inference and evaluation: `bash run.sh` The evaluation results will be generated automatically for each model.
+Once the model has been fine-tuned (or using [our](https://drive.google.com/drive/folders/1wBVmRHghSiFXBKS2KU-CnA6wZezuFmMF?usp=sharing) fine-tuned model), once can run the inference script (under `inference/` directory) to perform both the inference and evaluation: `bash run.sh` (one might need to adapt the script accordingly for the correct location of the dataset and model). The evaluation results will be generated automatically for each model.
 
 ## Output Analysis
 The pt files can be analyzed using [this](https://github.com/syafiq/commonvul/blob/main/inference/calculate.ipynb) jupyter notebook, i.e., the one that is used in the paper.
