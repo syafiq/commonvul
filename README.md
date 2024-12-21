@@ -20,6 +20,14 @@ This paper addresses two main research questions:
 - Fine-tuned code LMs are available from [here](https://drive.google.com/drive/folders/1wBVmRHghSiFXBKS2KU-CnA6wZezuFmMF?usp=sharing).
 - datasets are available from [here](https://drive.google.com/drive/folders/1ki37wIXczktydHkW3Wmih852FAefatki?usp=sharing).
 
+The dataset formatting for both RQs: 
+- $`D_{i,train}`$: pv_train_{i}.json
+- $`D_{i,test}`$: pv_test_{i}.json
+- $`D_{test,i}^{comp}`$: pv_test_all_{i}.json
+- $`D_{train,n}^{cum}`$: pv_train_top_{n}.json
+- $`D_{test,n}^{cum}`$: pv_test_top_{n}.json
+- $`D_{test,all,n}^{cum}`$: pv_TOP_test_all_{n}.json
+
 ## Fine-tune the language models:
 To fine-tune the model, navigate to the `training/` directory. Run the fine-tuning script: `bash run.sh`, adapt the script according to your requirements.
 
